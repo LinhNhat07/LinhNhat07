@@ -1,8 +1,20 @@
 # Hi, I'm Nguyen Hong Nhat Linh 👋
 
-### 🚀 AI & Machine Learning Engineer | Data Science Enthusiast
+### 🚀 AI & Machine Learning Engineer | Computer Vision Researcher
 
-Tôi là một kỹ sư AI định hướng giải quyết các bài toán thực tiễn thông qua dữ liệu. Thế mạnh của tôi nằm ở việc kết hợp giữa **Computer Vision** công nghiệp và **Natural Language Processing**, từ khâu thu thập dữ liệu (Scraping), huấn luyện mô hình (Training) cho đến triển khai trên thiết bị đầu cuối (Edge AI).
+Tôi là một kỹ sư AI chuyên sâu về **Computer Vision** và **Edge AI**, với kinh nghiệm thực chiến trong việc phát triển các giải pháp trí tuệ nhân tạo từ khâu xây dựng bộ dữ liệu (Data Engineering) đến triển khai mô hình tối ưu trên phần cứng nhúng.
+
+---
+
+## 🔬 Featured Research & Publication
+
+### [VR-TSD: A Real-World Dataset and a Lightweight YOLOv8n Model for Traffic Sign Recognition in Vietnam]
+*Published in **CSA 2025** (The 17th International Conference on Computing and Applied Informatics)*
+
+* **Problem:** Nhận diện biển báo giao thông trong điều kiện môi trường thực tế tại Việt Nam với tài nguyên phần cứng hạn chế.
+* **Contribution:** * Xây dựng **VR-TSD**: Bộ dữ liệu biển báo giao thông thực tế tại Việt Nam.
+    * Đề xuất mô hình **Lightweight YOLOv8n** tối ưu: Giảm thiểu tham số nhưng vẫn duy trì độ chính xác cao (mAP), phù hợp cho các thiết bị Edge AI/Mobile.
+* **Keywords:** `Object Detection`, `Model Compression`, `YOLOv8`, `Edge AI`.
 
 ---
 
@@ -10,35 +22,29 @@ Tôi là một kỹ sư AI định hướng giải quyết các bài toán thự
 
 | Domain | Expertise |
 | :--- | :--- |
-| **Artificial Intelligence** | Deep Learning, CNNs, Transformers, Fine-tuning PhoBERT, Object Detection. |
-| **Computer Vision** | OpenCV, Industrial Vision Systems (Keyence XG-X series), Image Processing. |
-| **Programming** | Python (Production-ready), C++, SQL, Selenium Automation. |
-| **Tools & Platforms** | PyTorch, TensorFlow, Docker, NVIDIA Jetson Ecosystem, Git. |
+| **Artificial Intelligence** | Deep Learning, YOLO Architecture, CNNs, Transformers, Fine-tuning (PhoBERT). |
+| **Computer Vision** | OpenCV, Industrial Vision (Keyence XG-X), Camera Calibration, Dataset Annotation. |
+| **Edge AI & Hardware** | NVIDIA Jetson Ecosystem (Nano/Orin), JetPack OS, Model Optimization. |
+| **Programming & Data** | Python (High Performance), C++, Selenium Automation, SQL. |
 
 ---
 
-## 💡 Key Projects & Contributions
+## 💡 Industry & Academic Projects
 
-### 🔍 [Industrial Defect Detection System]
-* **Giải quyết:** Tự động hóa quy trình kiểm tra lỗi sản phẩm trong dây chuyền sản xuất.
-* **Công nghệ:** Kết hợp thuật toán Image Processing truyền thống và AI model, tích hợp với phần cứng Keyence XG-X2900.
-* **Kết quả:** Tối ưu hóa việc lưu trữ ảnh độ phân giải cao (60MB+) qua hệ thống NAS/FTP để huấn luyện mô hình.
+### 🔍 Automated Industrial Inspection
+* Triển khai hệ thống phát hiện lỗi sản phẩm thời gian thực tích hợp với hệ thống camera công nghiệp **Keyence XG-X2900**.
+* Thiết kế kiến trúc lưu trữ và xử lý ảnh độ phân giải cao (60MB+) qua hệ thống NAS/FTP chuyên dụng.
 
-### 📝 [Vietnamese Sentiment Analysis]
-* **Giải quyết:** Phân tích thái độ người dùng từ hơn 19,000 bình luận trên các nền tảng báo chí (VnExpress).
-* **Công nghệ:** PhoBERT, Selenium (Data Scraping), PyTorch.
-* **Kết quả:** Xây dựng bộ dataset làm sạch hoàn chỉnh và huấn luyện mô hình đạt độ chính xác cao cho ngôn ngữ tiếng Việt.
-
-### ⚡ [Edge AI Implementation]
-* **Giải quyết:** Triển khai mô hình AI lên thiết bị nhúng phục vụ giám sát thời gian thực.
-* **Công nghệ:** NVIDIA Jetson Nano, JetPack OS, tối ưu hóa tài nguyên phần cứng.
+### 📝 Vietnamese NLP Analysis
+* Xây dựng Pipeline tự động thu thập và phân tích cảm xúc từ **19,000+** bình luận (VnExpress) sử dụng **PhoBERT**.
+* Tối ưu hóa quy trình gán nhãn dữ liệu và tiền xử lý ngôn ngữ tự nhiên đặc thù cho tiếng Việt.
 
 ---
 
-## 🌱 What I'm Doing Now
-- 🔬 **Nghiên cứu:** Tối ưu hóa mô hình Large Language Models (LLM) và ứng dụng RAG trong doanh nghiệp.
-- 🏗️ **Dự án:** Hoàn thiện hệ thống quản lý dữ liệu thông minh tập trung (Centralized AI Data Management).
-- 💬 **Thảo luận:** Rất sẵn lòng chia sẻ về Computer Vision, Automation và các giải pháp AI trên thiết bị nhúng.
+## 🌱 Current Research Interests
+- 🔭 **Focus:** Tối ưu hóa các mô hình thị giác máy tính cho môi trường sản xuất thông minh (Smart Manufacturing).
+- 📚 **Learning:** Nghiên cứu sâu về Generative AI và kỹ thuật RAG (Retrieval-Augmented Generation) cho dữ liệu doanh nghiệp.
+- ⚡ **Goal:** Trở thành một AI Engineer có khả năng cầu nối giữa nghiên cứu học thuật và ứng dụng thực tế.
 
 ---
 
