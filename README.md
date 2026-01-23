@@ -1,38 +1,39 @@
 # Hi, I'm Nguyen Hong Nhat Linh 👋
 
 ### 🚀 AI Engineer | Computer Vision & LLM Specialist
-*Architecting Robust AI Solutions for Edge Computing & Industrial Automation.*
+*Bridging the gap between Research and Industrial Production through Real-world Data.*
 
-Tôi là một kỹ sư AI chuyên sâu về việc đưa các mô hình Deep Learning từ nghiên cứu ra môi trường sản xuất thực tế. Thế mạnh cốt lõi của tôi là tối ưu hóa mô hình trên các thiết bị Edge (NVIDIA Jetson) và xây dựng hệ thống thị giác máy tính chính xác cao cho nhà máy thông minh, dựa trên kinh nghiệm làm việc trực tiếp với dữ liệu thực tế (Real-world Data) đầy thách thức.
+Tôi là một kỹ sư AI chuyên xây dựng các hệ thống thị giác máy tính và ngôn ngữ tự nhiên dựa trên nền tảng **Dữ liệu thực tế (Real-world Data)**. Tôi tin rằng sự thành công của một mô hình AI không chỉ nằm ở thuật toán mà còn ở khả năng xử lý các biến số phức tạp từ môi trường thực chiến (nhiễu, ánh sáng yếu, dữ liệu không cân bằng).
 
 ---
 
 ## 🔬 Featured Publication & Research
 
-### **[VR-TSD: A Real-World Dataset and Lightweight YOLOv8n for Traffic Sign Recognition]**
-*Hệ thống nhận diện biển báo giao thông tối ưu cho môi trường Việt Nam – Công bố tại **CSA 2025**.*
+### **[VR-TSD: A Real-World Dataset for Traffic Sign Recognition]**
+*Hệ thống nhận diện biển báo giao thông – Công bố tại hội nghị **CSA 2025**.*
 
-* **Key Impact:** Giải quyết bài toán dữ liệu thực tế (Real-world Data) với bộ dữ liệu **VR-TSD** (58 loại biển báo) trong các điều kiện mưa, thiếu sáng và bị che khuất.
+* **The Data:** Trực tiếp thu thập và xây dựng bộ dữ liệu **VR-TSD** (58 loại biển báo) từ môi trường giao thông thực tế tại Việt Nam với các kịch bản khắc nghiệt: mưa lớn, sương mù, thiếu sáng và vật cản che khuất.
 * **Engineering:** Đề xuất kiến trúc **Lightweight YOLOv8n** (6MB) đạt **mAP@0.5: 0.9434**.
-* **Performance:** Tốc độ xử lý thực tế **77.5 FPS** trên thiết bị di động.
+* **Performance:** Tối ưu hóa triển khai thực tế với tốc độ **77.5 FPS** trên Mobile.
 
 ---
 
-## 💡 High-Impact Projects
+## 💡 High-Impact Projects (Real-world Implementation)
 
-### 🏭 **Industrial Defect & Packaging Inspection (Smart Factory)**
-* **Solutions:** Xây dựng hệ thống phát hiện lỗi sản phẩm (YOLOv11s) và kiểm tra đóng gói (YOLOv8n).
-* **Hardware Integration:** Triển khai trên Camera công nghiệp **Keyence**, **Basler**, **Cognex** và **Dino-Lite**.
-* **Infrastructure:** Vận hành trên PC **RTX 5060**; Quản lý dữ liệu hình ảnh tập trung qua **NAS/FTP** và **PostgreSQL**.
+### 🏭 **Industrial Smart Quality Control System**
+* **The Solution:** Tự động hóa quy trình phân loại lỗi sản phẩm và kiểm tra đóng gói (Sai tem, lệch nhãn).
+* **Real-world Data:** Xây dựng Pipeline thu thập ảnh độ phân giải cao trực tiếp từ dây chuyền sản xuất qua camera **Keyence, Basler, Cognex**. Xử lý bài toán dữ liệu lỗi hiếm gặp (Imbalanced Data) trong nhà máy.
+* **Stack:** YOLOv11s, YOLOv8n, PostgreSQL, NVIDIA **RTX 5060**.
 
-### 🧴 **Edge-AI Serial Recognition for Micro-Products**
-* **Solution:** Nhận diện số Seri siêu nhỏ trên bề mặt cong phức tạp của chai lọ mỹ phẩm.
-* **Stack:** Hybrid Model (**ResNet + YOLO**) tối ưu hóa cho **NVIDIA Jetson Orin** & **Jetson Nano**.
-* **Experience:** Xử lý triệt để các vấn đề về ánh sáng và nhiễu dữ liệu trong môi trường sản xuất thực tế.
+### 🧴 **Micro-Scale Serial & Defect Recognition**
+* **The Solution:** Nhận diện số Seri và khiếm khuyết trên bề mặt cong siêu nhỏ của chai lọ mỹ phẩm.
+* **Real-world Data:** Trực tiếp xử lý nhiễu hình ảnh và biến dạng ký tự từ Camera **Dino-Lite**. Dữ liệu được gán nhãn thủ công để đảm bảo độ chính xác tuyệt đối cho các sản phẩm kích thước nhỏ.
+* **Hardware:** Deploy trên **NVIDIA Jetson Orin** & **Jetson Nano**.
 
-### 📝 **Vietnamese Language Analytics (NLP/LLMs)**
-* **Solution:** Thu thập và phân tích sắc thái ngôn ngữ từ **19,000+** dữ liệu thực tế qua mô hình **PhoBERT**.
-* **Focus:** Nghiên cứu tối ưu hóa **LLMs** và **Fine-tuning** cho ngôn ngữ bản địa.
+### 📝 **Vietnamese NLP Sentiment Analysis**
+* **The Solution:** Hệ thống phân tích sắc thái ngôn ngữ tự nhiên từ dữ liệu mạng xã hội.
+* **Real-world Data:** Tự xây dựng script thu thập (Scraping) và làm sạch **19,000+** mẫu dữ liệu thực tế từ các nền tảng tin tức và bình luận người dùng. 
+* **Stack:** PhoBERT, Fine-tuning LLMs, PyTorch.
 
 ---
 
@@ -41,16 +42,16 @@ Tôi là một kỹ sư AI chuyên sâu về việc đưa các mô hình Deep Le
 | Category | Expertise |
 | :--- | :--- |
 | **🧠 Deep Learning** | YOLO (v8-v11), ResNet, Transformers (**NLP/LLMs**), PhoBERT, CNNs. |
-| **👁️ Computer Vision** | OpenCV, **Keyence XG-X**, **Basler Pylon**, **Cognex Vision**, Dino-Lite. |
-| **⚡ Edge & Hardware** | **NVIDIA Jetson Orin/Nano**, **RTX 5060**, Model Quantization, TensorRT. |
-| **💾 Data & Software** | **PostgreSQL**, **Python** (Production), C++, SQL, Selenium, Git. |
+| **👁️ Computer Vision** | OpenCV, **Keyence**, **Basler Pylon**, **Cognex Vision**, Dino-Lite. |
+| **⚡ Edge & Hardware** | **NVIDIA Jetson Orin/Nano**, **RTX 5060**, TensorRT, Model Quantization. |
+| **💾 Data Management** | **Real-world Data Collection**, **PostgreSQL**, NAS/FTP, Selenium. |
 
 ---
 
 ## 🌱 Current Focus
-- 🔬 **Research:** Ứng dụng **Vision-Language Models (VLM)** & **LLMs** vào giám sát an toàn đô thị.
-- 🏗️ **Development:** Tối ưu hóa Pipeline AI xử lý dữ liệu thực tế quy mô lớn (Real-world Big Data).
-- 💬 **Open for:** Cộng tác trong các dự án **Edge AI**, **Industrial Automation** và **NLP/LLMs**.
+- 🔬 **Research:** Tối ưu hóa **Vision-Language Models (VLM)** trên dữ liệu video thực tế từ Camera giám sát.
+- 🏗️ **Development:** Hệ thống quản lý và gán nhãn dữ liệu AI tập trung (Centralized AI Data Pipeline).
+- 💬 **Open for:** Cộng tác dự án **Edge AI**, **Industrial Automation** và **Advanced NLP**.
 
 ---
 
