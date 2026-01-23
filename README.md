@@ -1,6 +1,6 @@
-  # Hi, I'm Nguyen Hong Nhat Linh 👋
+# Hi, I'm Nguyen Hong Nhat Linh 👋
 
-### 🚀 AI Engineer | Computer Vision & LLM Specialist
+### 🚀 AI & Machine Learning Engineer | Data Science Specialist
 *Bridging the gap between Research and Industrial Production through Real-world Data.*
 
 Tôi là một kỹ sư AI chuyên xây dựng các hệ thống thị giác máy tính và ngôn ngữ tự nhiên dựa trên nền tảng **Dữ liệu thực tế (Real-world Data)**. Tôi tin rằng sự thành công của một mô hình AI không chỉ nằm ở thuật toán mà còn ở khả năng xử lý các biến số phức tạp từ môi trường thực chiến (nhiễu, ánh sáng yếu, dữ liệu không cân bằng).
@@ -25,10 +25,11 @@ Tôi là một kỹ sư AI chuyên xây dựng các hệ thống thị giác má
 * **Real-world Data:** Xây dựng Pipeline thu thập ảnh độ phân giải cao trực tiếp từ dây chuyền sản xuất qua camera **Keyence, Basler, Cognex**. Xử lý bài toán dữ liệu lỗi hiếm gặp (Imbalanced Data) trong nhà máy.
 * **Stack:** YOLOv11s, YOLOv8n, PostgreSQL, NVIDIA **RTX 5060**.
 
-### 🧴 **Micro-Scale Serial & Defect Recognition**
-* **The Solution:** Nhận diện số Seri trên bề mặt chai lọ mỹ phẩm và thông báo bằng âm thanh đến người dùng.
-* **Real-world Data:** Trực tiếp xử lý nhiễu hình ảnh và biến dạng ký tự từ Camera **Dino-Lite**. Dữ liệu được gán nhãn thủ công để đảm bảo độ chính xác tuyệt đối cho các sản phẩm kích thước nhỏ.
-* **Hardware:** Deploy trên **NVIDIA Jetson Orin** & **Jetson Nano**.
+### 🧴 **Edge-AI Micro-Serial OCR & Real-time Defect Alert System**
+* **The Solution:** Hệ thống nhận diện số Seri và phát hiện khiếm khuyết trên bề mặt chai lọ mỹ phẩm kích thước nhỏ. 
+* **Industrial Integration:** Tích hợp hệ thống cảnh báo âm thanh thông qua **còi báo công nghiệp**, giao tiếp qua giao thức **RS485 (Modbus RTU)** để điều khiển thời gian thực.
+* **Real-world Data:** Trực tiếp xử lý nhiễu hình ảnh và biến dạng ký tự từ Camera **Dino-Lite**. Dữ liệu được gán nhãn thủ công để đảm bảo độ chính xác tuyệt đối.
+* **Hardware:** Triển khai trên **NVIDIA Jetson Orin** & **Jetson Nano**.
 
 ### 📝 **Vietnamese NLP Sentiment Analysis**
 * **The Solution:** Hệ thống phân tích sắc thái ngôn ngữ tự nhiên từ dữ liệu mạng xã hội.
@@ -43,7 +44,7 @@ Tôi là một kỹ sư AI chuyên xây dựng các hệ thống thị giác má
 | :--- | :--- |
 | **🧠 Deep Learning** | YOLO (v8-v11), ResNet, Transformers (**NLP/LLMs**), PhoBERT, CNNs. |
 | **👁️ Computer Vision** | OpenCV, **Keyence**, **Basler Pylon**, **Cognex Vision**, Dino-Lite. |
-| **⚡ Edge & Hardware** | **NVIDIA Jetson Orin/Nano**, **RTX 5060**, TensorRT, Model Quantization. |
+| **⚡ Edge & Hardware** | **NVIDIA Jetson Orin/Nano**, **RTX 5060**, **RS485/Modbus**, TensorRT. |
 | **💾 Data Management** | **Real-world Data Collection**, **PostgreSQL**, NAS/FTP, Selenium. |
 
 ---
