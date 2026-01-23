@@ -26,7 +26,7 @@ Tôi là một kỹ sư AI chuyên xây dựng các hệ thống thị giác má
 * **Stack:** YOLOv11s, YOLOv8n, PostgreSQL, NVIDIA **RTX 5060**.
 
 ### 🧴 **Micro-Scale Serial & Defect Recognition**
-* **The Solution:** Nhận diện số Seri và khiếm khuyết trên bề mặt cong siêu nhỏ của chai lọ mỹ phẩm.
+* **The Solution:** Nhận diện số Seri trên bề mặt chai lọ mỹ phẩm và thông báo bằng âm thanh đến người dùng.
 * **Real-world Data:** Trực tiếp xử lý nhiễu hình ảnh và biến dạng ký tự từ Camera **Dino-Lite**. Dữ liệu được gán nhãn thủ công để đảm bảo độ chính xác tuyệt đối cho các sản phẩm kích thước nhỏ.
 * **Hardware:** Deploy trên **NVIDIA Jetson Orin** & **Jetson Nano**.
 
