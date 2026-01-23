@@ -1,9 +1,9 @@
 # Hi, I'm Nguyen Hong Nhat Linh 👋
 
-### 🚀 AI Engineer | Data Science Specialist 
-*Focusing on Edge AI, Industrial Computer Vision, and Vietnamese NLP.*
+### 🚀 AI & Machine Learning Engineer | Data Science Specialist
+*Building High-Performance Computer Vision & Edge AI Solutions for Industry 4.0.*
 
-Tôi là một kỹ sư AI đam mê việc đưa các mô hình nghiên cứu vào thực tế sản xuất. Với tư duy tối ưu hóa hiệu năng, tôi tập trung xây dựng các hệ thống AI "nhẹ, nhanh và chính xác" có khả năng triển khai trên các thiết bị Edge và môi trường công nghiệp thực tế.
+Tôi là một kỹ sư AI chuyên về các giải pháp thị giác máy tính (Computer Vision) và xử lý ngôn ngữ tự nhiên (NLP). Thế mạnh của tôi là tối ưu hóa các mô hình Deep Learning để triển khai trên các hệ thống hiệu năng cao (RTX 50-series) và các thiết bị Edge (NVIDIA Jetson) nhằm giải quyết các bài toán thực tế trong sản xuất thông minh và giao thông.
 
 ---
 
@@ -12,10 +12,33 @@ Tôi là một kỹ sư AI đam mê việc đưa các mô hình nghiên cứu v�
 ### **[VR-TSD: A Real-World Dataset and Lightweight YOLOv8n for Traffic Sign Recognition]**
 *Hệ thống nhận diện biển báo giao thông tối ưu cho môi trường Việt Nam – Công bố tại **CSA 2025**.*
 
-* **Impact:** Giải quyết bài toán thiếu hụt dữ liệu giao thông bản địa với bộ dữ liệu **VR-TSD** (58 loại biển báo, thu thập trong điều kiện mưa, thiếu sáng).
+* **Impact:** Xây dựng bộ dữ liệu **VR-TSD** (58 loại biển báo) trong các điều kiện khắc nghiệt (mưa, thiếu sáng).
 * **Engineering:** Đề xuất kiến trúc **Lightweight YOLOv8n** chỉ **6MB**.
-* **Performance:** Đạt **mAP@0.5: 0.9434**; Tốc độ **168.86 FPS** (A100) và **77.5 FPS** (iPhone 11 Pro Max).
+* **Performance:** Đạt **mAP@0.5: 0.9434**; Tốc độ xử lý **168.86 FPS** (A100) và **77.5 FPS** (Mobile).
 * **Keywords:** `Edge AI`, `Model Optimization`, `Object Detection`, `ADAS`.
+
+---
+
+## 💡 High-Impact Projects
+
+### 🏭 **AI-Powered Industrial Quality Control & Statistical Dashboard**
+* **Solution:** Hệ thống số hóa quy trình kiểm tra, thống kê và phân loại lỗi sản phẩm theo thời gian thực.
+* **Stack:** **YOLOv11s** (mAP@0.5: **0.81**), Python, SQL.
+* **Hardware:** Tích hợp Camera công nghiệp **Keyence**, vận hành trên hệ thống NVIDIA **RTX 5060 GPU**.
+
+### 🧴 **Micro-Scale Serial Number Recognition & Alert System**
+* **Solution:** Nhận diện và cảnh báo số Seri siêu nhỏ trên bề mặt cong của chai lọ mỹ phẩm.
+* **Stack:** Hybrid Architecture (**ResNet + YOLO**).
+* **Hardware:** Camera nội soi **Dino-Lite** kết hợp với **NVIDIA Jetson Orin Dev Kit**.
+
+### 🏷️ **Automated Packaging Inspection System (APIS)**
+* **Solution:** Phát hiện lỗi đóng gói: ngược tem, lệch nhãn và sai quy cách sản phẩm.
+* **Stack:** **YOLOv8n** (mAP@0.5: **0.89**).
+* **Hardware:** Industrial Camera **Basler**.
+
+### 📝 **Vietnamese Social Sentiment Analytics**
+* **Solution:** Thu thập và phân tích sắc thái hơn **19,000** bình luận người dùng trên các nền tảng tin tức.
+* **Stack:** **PhoBERT**, Selenium, PyTorch.
 
 ---
 
@@ -23,26 +46,17 @@ Tôi là một kỹ sư AI đam mê việc đưa các mô hình nghiên cứu v�
 
 | Category | Expertise |
 | :--- | :--- |
-| **Artificial Intelligence** | YOLO (v8-v11), Transformers (PhoBERT), CNNs, Model Quantization. |
-| **Computer Vision** | OpenCV, Industrial Inspection (Keyence XG-X Ecosystem), Image Processing. |
-| **Data Engineering** | Advanced Web Scraping (Selenium), Large-scale Labeling (19,000+ samples). |
-| **Programming** | **Python** (Production-ready), **C++**, SQL, Shell Scripting. |
-| **Infrastructures** | Docker, NVIDIA Jetson (JetPack), NAS/FTP Integration, Git Workflow. |
+| **Deep Learning** | YOLO (v8-v11), ResNet, Transformers (PhoBERT), CNNs. |
+| **Computer Vision** | OpenCV, Keyence XG-X, Basler Pylon, Dino-Lite Imaging. |
+| **Edge & Hardware** | **NVIDIA Jetson Orin**, **RTX 5060**, Model Quantization, NAS/FTP. |
+| **Programming** | **Python** (Production-ready), C++, SQL, Selenium Automation. |
 
 ---
 
-## 💡 High-Impact Projects
-
-* **Industrial Defect Detection:** Xây dựng Pipeline AI kiểm tra lỗi sản phẩm thời gian thực, tích hợp Camera công nghiệp Keyence và hệ thống lưu trữ tập trung NAS cho Smart Factory.
-* **VN-Sentiment Analysis:** Huấn luyện mô hình PhoBERT phân tích sắc thái hơn 19,000 bình luận người dùng, phục vụ nghiên cứu hành vi trên các nền tảng tin tức.
-* **Edge Monitoring System:** Phát triển script tối ưu hóa hiệu suất và giám sát kết nối cho các trạm AI đầu cuối hoạt động 24/7.
-
----
-
-## 📈 Current Focus
-- 🔭 **Research:** Ứng dụng **Vision-Language Models (VLM)** vào giám sát an toàn giao thông.
-- 🌱 **Learning:** Tối ưu hóa mô hình LLM thông qua kỹ thuật **Quantization** và **RAG**.
-- 💬 **Collaborations:** Sẵn sàng kết nối cho các dự án về **Computer Vision**, **Edge Computing** và **Smart Manufacturing**.
+## 🌱 Current Focus
+- 🔭 **Research:** Ứng dụng **Vision-Language Models (VLM)** vào giám sát an toàn giao thông đô thị.
+- 🏗️ **Development:** Tối ưu hóa pipeline AI tập trung trên hệ thống lưu trữ NAS cho Smart Factory.
+- 💬 **Open for:** Cơ hội cộng tác trong các dự án **Edge AI**, **Industrial AI** và **Computer Vision**.
 
 ---
 
