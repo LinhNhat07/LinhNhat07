@@ -1,45 +1,52 @@
-# Hi there, I'm Nguyen Hong Nhat Linh 👋 🚀
+# Hi, I'm Nguyen Hong Nhat Linh 👋
 
-### 🧠 Data Science Student | Aspiring AI & ML Engineer 
+### 🚀 AI & Machine Learning Engineer | Data Science Enthusiast
 
-Đam mê việc khai phá sức mạnh của dữ liệu và xây dựng những mô hình trí tuệ nhân tạo có khả năng giải quyết các vấn đề thực tiễn. Hiện tại, tôi đang tập trung sâu vào lĩnh vực Computer Vision và Xử lý ngôn ngữ tự nhiên (NLP).
-
----
-
-## 🚀 My Focus Areas
-- **Machine Learning & Deep Learning:** Xây dựng mô hình dự báo và phân loại.
-- **Computer Vision:** Triển khai các hệ thống nhận diện vật thể và kiểm tra lỗi sản phẩm tự động.
-- **Natural Language Processing (NLP):** Làm việc với các kiến trúc Transformer, sentiment analysis và xử lý dữ liệu văn bản lớn.
-- **Edge AI & Hardware:** Tối ưu hóa mô hình AI chạy trên các thiết bị nhúng (NVIDIA Jetson) và tích hợp hệ thống camera công nghiệp.
+Tôi là một kỹ sư AI định hướng giải quyết các bài toán thực tiễn thông qua dữ liệu. Thế mạnh của tôi nằm ở việc kết hợp giữa **Computer Vision** công nghiệp và **Natural Language Processing**, từ khâu thu thập dữ liệu (Scraping), huấn luyện mô hình (Training) cho đến triển khai trên thiết bị đầu cuối (Edge AI).
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## 🛠 Tech & Skill Stack
 
-| Category | Skills & Technologies |
+| Domain | Expertise |
 | :--- | :--- |
-| **Programming** | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) |
-| **AI/ML Frameworks** | ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) |
-| **Data Tools** | ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) |
-| **Deployment & Ops** | ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Nvidia](https://img.shields.io/badge/nvidian-76B900?style=for-the-badge&logo=nvidia&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) |
+| **Artificial Intelligence** | Deep Learning, CNNs, Transformers, Fine-tuning PhoBERT, Object Detection. |
+| **Computer Vision** | OpenCV, Industrial Vision Systems (Keyence XG-X series), Image Processing. |
+| **Programming** | Python (Production-ready), C++, SQL, Selenium Automation. |
+| **Tools & Platforms** | PyTorch, TensorFlow, Docker, NVIDIA Jetson Ecosystem, Git. |
 
 ---
 
-## 📈 Featured Projects
-* **Defect Detection System:** Phát triển giải pháp phát hiện lỗi sản phẩm sử dụng mô hình AI kết hợp với hệ thống Camera Keyence.
-* **Sentiment Analysis for Vietnamese:** Xây dựng mô hình phân tích cảm xúc bình luận bằng PhoBERT với bộ dữ liệu lớn.
-* **Web Scraping & Automation:** Công cụ thu thập dữ liệu tự động từ các trang tin tức lớn sử dụng Selenium.
+## 💡 Key Projects & Contributions
+
+### 🔍 [Industrial Defect Detection System]
+* **Giải quyết:** Tự động hóa quy trình kiểm tra lỗi sản phẩm trong dây chuyền sản xuất.
+* **Công nghệ:** Kết hợp thuật toán Image Processing truyền thống và AI model, tích hợp với phần cứng Keyence XG-X2900.
+* **Kết quả:** Tối ưu hóa việc lưu trữ ảnh độ phân giải cao (60MB+) qua hệ thống NAS/FTP để huấn luyện mô hình.
+
+### 📝 [Vietnamese Sentiment Analysis]
+* **Giải quyết:** Phân tích thái độ người dùng từ hơn 19,000 bình luận trên các nền tảng báo chí (VnExpress).
+* **Công nghệ:** PhoBERT, Selenium (Data Scraping), PyTorch.
+* **Kết quả:** Xây dựng bộ dataset làm sạch hoàn chỉnh và huấn luyện mô hình đạt độ chính xác cao cho ngôn ngữ tiếng Việt.
+
+### ⚡ [Edge AI Implementation]
+* **Giải quyết:** Triển khai mô hình AI lên thiết bị nhúng phục vụ giám sát thời gian thực.
+* **Công nghệ:** NVIDIA Jetson Nano, JetPack OS, tối ưu hóa tài nguyên phần cứng.
 
 ---
 
-## 🌱 Currently Learning & Working on
-- 🔭 **Current Project:** Hoàn thiện hệ thống quản lý dữ liệu hình ảnh tập trung qua NAS.
-- 🌱 **Learning:** Nghiên cứu sâu về kiến trúc Large Language Models (LLM) và các kỹ thuật Fine-tuning.
-- 💬 **Ask me about:** Python, OpenCV, Jetson Nano, hoặc bất cứ thứ gì về AI.
-- 📫 **How to reach me:** [Email của bạn] | [Link LinkedIn]
+## 🌱 What I'm Doing Now
+- 🔬 **Nghiên cứu:** Tối ưu hóa mô hình Large Language Models (LLM) và ứng dụng RAG trong doanh nghiệp.
+- 🏗️ **Dự án:** Hoàn thiện hệ thống quản lý dữ liệu thông minh tập trung (Centralized AI Data Management).
+- 💬 **Thảo luận:** Rất sẵn lòng chia sẻ về Computer Vision, Automation và các giải pháp AI trên thiết bị nhúng.
 
 ---
 
-## 📊 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=LinhNhat07&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LinhNhat07&layout=compact&theme=radical)
+## 📈 Connect with me
+<p align="left">
+<a href="mailto:your-email@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="your-linkedin-link"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+</p>
+
+---
+![Linh's GitHub stats](https://github-readme-stats.vercel.app/api?username=LinhNhat07&show_icons=true&theme=tokyonight)
