@@ -1,4 +1,4 @@
-# Hi, I'm Nguyen Hong Nhat Linh 👋
+  # Hi, I'm Nguyen Hong Nhat Linh 👋
 
 ### 🚀 AI Engineer | Computer Vision & LLM Specialist
 *Bridging the gap between Research and Industrial Production through Real-world Data.*
@@ -9,7 +9,7 @@ Tôi là một kỹ sư AI chuyên xây dựng các hệ thống thị giác má
 
 ## 🔬 Featured Publication & Research
 
-### **[VR-TSD: A Real-World Dataset for Traffic Sign Recognition]**
+### **[VR-TSD: A Real-World Dataset and a Lightweight YOLOv8n Model for Traffic Sign Recognition in Vietnam]**
 *Hệ thống nhận diện biển báo giao thông – Công bố tại hội nghị **CSA 2025**.*
 
 * **The Data:** Trực tiếp thu thập và xây dựng bộ dữ liệu **VR-TSD** (58 loại biển báo) từ môi trường giao thông thực tế tại Việt Nam với các kịch bản khắc nghiệt: mưa lớn, sương mù, thiếu sáng và vật cản che khuất.
