@@ -36,15 +36,16 @@ My work centers on building models that remain reliable under noisy data, class 
 
 - **Objective:** Deploy an automated system for product code identification and surface defect detection on small-scale cosmetic production lines.
 - **Core Technology:**
-    - **Model:** Leveraged **ResNet-50** for robust product code classification, achieving **95% Accuracy**.
-    - **Performance:** Optimized via **TensorRT** to maintain a stable **12 FPS** on edge computing resources.
+    - **Hybrid Architecture:** Combined **YOLOv8** for high-speed region proposal (ROI detection) with **ResNet-50** for precise product code classification.
+    - **Model Performance:** Achieved a classification **Accuracy of 95%** and a detection **mAP of 0.89**, ensuring reliable defect filtering.
+    - **Optimization:** Streamlined the pipeline via **TensorRT** to maintain a stable **12 FPS** on resource-constrained edge devices.
     - **Hardware:** Integrated **Dino-Lite** digital microscopy cameras to capture high-resolution details, effectively mitigating character deformation and surface reflections.
 - **Industrial Integration:**
     - Developed a real-time alert control module utilizing **RS485 (Modbus RTU)** protocol.
     - Synchronized industrial buzzers for instantaneous audible alerts upon detecting defective or mismatched products.
 - **Deployment:** Field-tested on **NVIDIA Jetson Orin & Jetson Nano**, balancing power efficiency with high-performance inference at the edge.
-- **Tech Stack:** `ResNet-50` · `YOLO` · `OpenCV` · `RS485 (Modbus)` · `TensorRT` · `Dino-Lite`
-
+- **Tech Stack:** `YOLOv8` · `ResNet-50` · `OpenCV` · `RS485 (Modbus)` · `TensorRT` · `Dino-Lite`
+  
 ---
 
 ### 📝 **Vietnamese NLP & Sentiment Analysis System**
