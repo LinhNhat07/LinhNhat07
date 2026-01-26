@@ -88,10 +88,13 @@ My work centers on building models that remain reliable under noisy data, class 
 ---
 
 ## 🌱 Current Focus
-- **Vision-Language Models (VLM)** on real-world surveillance video.
-- **n8n-powered AI Agents** for industrial monitoring and reporting.
-- **Advanced Model Compression:** Optimizing ResNet and U-Net models for real-time edge performance.
-- **Centralized AI Data Pipeline** for annotation, versioning, and training.
+**Industrial Computer Vision:** Developing high-precision defect detection systems for high-speed conveyor belts, leveraging state-of-the-art architectures like YOLOv11 to solve complex quality control challenges.
+
+**Model Optimization & Deployment:** Streamlining the end-to-end deployment pipeline by converting Deep Learning models to ONNX and TensorRT (Engine) formats to achieve ultra-low latency on industrial PCs and Edge AI platforms (NVIDIA Jetson).
+
+**Factory Automation Integration:** Deepening expertise in integrating AI software with industrial hardware, including Basler/Keyence cameras and RS485 communication protocols for real-time automated alerts.
+
+**Practical Deep Learning:** Bridging the gap between research and production by applying Machine Learning and NLP to build robust, scalable AI solutions for real-world industrial environments.
 
 ---
 
