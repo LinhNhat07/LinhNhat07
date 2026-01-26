@@ -1,11 +1,11 @@
 # 👋 Hi, I'm Nguyen Hong Nhat Linh
 
 ## 🚀 AI & Machine Learning Engineer | Computer Vision & Data Science
-**Bridging AI Research and Industrial Production with Real-world Data**
+**Bridging AI Research and Industrial Production with Real-world Data & Automation**
 
-I am an AI Engineer specializing in Computer Vision, Natural Language Processing (NLP), and Large Language Model (LLM) systems, with a strong focus on real-world deployment.
+I am an AI Engineer specializing in Computer Vision, Natural Language Processing (NLP), and Large Language Model (LLM) systems, with a strong focus on real-world deployment and **AI workflow automation**.
 
-My work centers on building models that remain reliable under noisy data, class imbalance, latency constraints, and hardware limitations commonly encountered in production environments.
+My work centers on building models that remain reliable under noisy data, class imbalance, and hardware limitations, while leveraging **Low-code Automation (n8n)** to streamline AI operations and data pipelines.
 
 ---
 
@@ -16,8 +16,7 @@ My work centers on building models that remain reliable under noisy data, class 
 
 - **Dataset:** Built **VR-TSD**, a real-world traffic sign dataset (58 classes) collected under harsh conditions: rain, fog, low-light, occlusion.
 - **Model:** Proposed a **Lightweight YOLOv8n** architecture (≈6MB).
-- **Performance:**  
-  - **mAP@0.5:** 0.9434  
+- **Performance:** - **mAP@0.5:** 0.9434  
   - **Inference speed:** 77.5 FPS on mobile devices
 - **Contribution:** Demonstrated high-accuracy edge deployment under constrained resources.
 
@@ -29,20 +28,25 @@ My work centers on building models that remain reliable under noisy data, class 
 - **Objective:** Automated defect detection and packaging inspection (wrong label, misalignment).
 - **Data Pipeline:** Real-time image acquisition from production lines using **Keyence, Basler, Cognex** cameras.
 - **Key Challenges:** Rare defect detection, class imbalance, unstable lighting.
-- **Tech Stack:**  
-  `YOLOv11s · YOLOv8n · OpenCV · PostgreSQL · NVIDIA RTX 5060`
+- **Tech Stack:** `YOLOv11s · YOLOv8n · OpenCV · PostgreSQL · NVIDIA RTX 5060`
 
 ---
 
 ### 🧴 **Edge-AI Micro-Serial OCR & Real-time Defect Alert System**
 - **Objective:** OCR of micro serial numbers and surface defect detection on cosmetic containers.
-- **Industrial Integration:**  
-  - Real-time alarm control via **RS485 (Modbus RTU)**  
-  - Industrial buzzer activation for instant alerts
+- **Industrial Integration:** - Real-time alarm control via **RS485 (Modbus RTU)** - Industrial buzzer activation for instant alerts
 - **Deployment:** **NVIDIA Jetson Orin & Jetson Nano**
 - **Key Challenges:** Motion blur, surface reflection, character deformation.
-- **Tech Stack:**  
-  `YOLO · OCR · OpenCV · RS485 · TensorRT`
+- **Tech Stack:** `YOLO · OCR · OpenCV · RS485 · TensorRT`
+
+---
+
+### 🤖 **AI Workflow Automation & Orchestration (n8n)**
+- **Objective:** Building autonomous agents and automated data pipelines to bridge AI models with business applications.
+- **Capabilities:** - **AI Agents:** Developing multi-agent workflows using **n8n LangChain nodes** for complex decision-making.
+  - **Automated Pipelines:** Automating data scraping, preprocessing, and model inference triggers.
+  - **Integration:** Connecting LLMs (OpenAI, Anthropic) with Slack, Google Sheets, Databases, and custom APIs.
+- **Tech Stack:** `n8n · Self-hosted (Docker) · LangChain Nodes · REST API · Webhooks`
 
 ---
 
@@ -50,38 +54,21 @@ My work centers on building models that remain reliable under noisy data, class 
 - **Dataset:** Collected and cleaned **19,000+ real-world Vietnamese samples** from news and social platforms.
 - **Modeling:** Fine-tuned **PhoBERT** for sentiment classification.
 - **Focus:** Domain noise, slang, informal Vietnamese language.
-- **Tech Stack:**  
-  `PhoBERT · PyTorch · Hugging Face Transformers`
+- **Tech Stack:** `PhoBERT · PyTorch · Hugging Face Transformers`
 
 ---
 
 ## 🧠 LLM, API & RAG Systems Experience
 
-### 🔗 **LLM API Integration**
-- Designed systems using:
-  - **OpenAI API**
-  - **Amazon Bedrock** (Claude, Titan)
-  - **Hugging Face Inference API**
-- Experience with:
-  - Prompt engineering for production
-  - Token & cost optimization
-  - Streaming & async inference
+### 🔗 **LLM API & Orchestration**
+- Designed systems using **OpenAI API**, **Amazon Bedrock**, and **Hugging Face**.
+- Orchestrated complex AI tasks using **n8n**, enabling seamless interaction between LLMs and external tools.
+- Experience with: Prompt engineering, Token optimization, and Async inference.
 
 ### 📚 **RAG (Retrieval-Augmented Generation)**
-- Built RAG pipelines for **enterprise knowledge systems**
-- Key components:
-  - Vector databases (FAISS / Chroma)
-  - Embedding models (OpenAI, Hugging Face)
-  - Context chunking & reranking
-- Use cases:
-  - Internal document QA
-  - Technical knowledge assistants
-  - AI-powered support systems
-
-### 🤗 **Hugging Face Ecosystem**
-- Model fine-tuning & deployment
-- Custom datasets & tokenizers
-- Local inference optimization for edge & on-premise systems
+- Built RAG pipelines for **enterprise knowledge systems**.
+- **n8n Integration:** Building visual RAG workflows using Vector Store nodes (FAISS, Pinecone/Chroma) and Document Loaders.
+- Use cases: Internal document QA, Technical knowledge assistants.
 
 ---
 
@@ -90,25 +77,26 @@ My work centers on building models that remain reliable under noisy data, class 
 | Category | Technologies |
 |------|------|
 | **Deep Learning** | YOLO (v8–v11), CNNs, Transformers, PhoBERT, Vision-Language Models |
+| **Automation & Orchestration** | **n8n**, LangChain, Workflow Automation, Webhooks |
 | **Computer Vision** | OpenCV, Keyence, Basler Pylon, Cognex Vision, Dino-Lite |
 | **LLM Systems** | OpenAI API, Amazon Bedrock, Hugging Face, RAG Pipelines |
 | **Edge AI** | Jetson Orin, Jetson Nano, TensorRT |
 | **Industrial Communication** | RS485, Modbus RTU |
-| **Data & Backend** | PostgreSQL, NAS/FTP, Selenium |
+| **Data & Backend** | PostgreSQL, NAS/FTP, Selenium, Docker |
 
 ---
 
 ## 🌱 Current Focus
-- **Vision-Language Models (VLM)** on real-world surveillance video
-- **Centralized AI Data Pipeline** for annotation, versioning, and training
-- **LLM-powered industrial assistants** using RAG
+- **Vision-Language Models (VLM)** on real-world surveillance video.
+- **n8n-powered AI Agents** for industrial monitoring and reporting.
+- **Centralized AI Data Pipeline** for annotation, versioning, and training.
 
 ---
 
 ## 🤝 Open for Collaboration
 - Edge AI & Industrial Automation
+- **AI Workflow Automation & n8n Implementation**
 - Computer Vision in manufacturing
-- LLM-based enterprise systems
 - Applied NLP for low-resource languages
 
 ---
@@ -119,4 +107,3 @@ My work centers on building models that remain reliable under noisy data, class 
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
-
