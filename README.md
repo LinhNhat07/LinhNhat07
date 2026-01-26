@@ -32,21 +32,18 @@ My work centers on building models that remain reliable under noisy data, class 
 
 ---
 
-### 🧴 **Edge-AI Micro-Serial OCR & Real-time Defect Alert System**
-- **Objective:** OCR of micro serial numbers and surface defect detection on cosmetic containers.
-- **Industrial Integration:** - Real-time alarm control via **RS485 (Modbus RTU)** - Industrial buzzer activation for instant alerts
-- **Deployment:** **NVIDIA Jetson Orin & Jetson Nano**
-- **Key Challenges:** Motion blur, surface reflection, character deformation.
-- **Tech Stack:** `YOLO · OCR · OpenCV · RS485 · TensorRT`
+### 🧴 **Real-time Product Code Recognition & Industrial Alert System**
 
----
-
-### 🤖 **AI Workflow Automation & Orchestration (n8n)**
-- **Objective:** Building autonomous agents and automated data pipelines to bridge AI models with business applications.
-- **Capabilities:** - **AI Agents:** Developing multi-agent workflows using **n8n LangChain nodes** for complex decision-making.
-  - **Automated Pipelines:** Automating data scraping, preprocessing, and model inference triggers.
-  - **Integration:** Connecting LLMs (OpenAI, Anthropic) with Slack, Google Sheets, Databases, and custom APIs.
-- **Tech Stack:** `n8n · Self-hosted (Docker) · LangChain Nodes · REST API · Webhooks`
+- **Objective:** Deploy an automated system for product code identification and surface defect detection on small-scale cosmetic production lines.
+- **Core Technology:**
+    - **Model:** Leveraged **ResNet-50** for robust product code classification, achieving **95% Accuracy**.
+    - **Performance:** Optimized via **TensorRT** to maintain a stable **12 FPS** on edge computing resources.
+    - **Hardware:** Integrated **Dino-Lite** digital microscopy cameras to capture high-resolution details, effectively mitigating character deformation and surface reflections.
+- **Industrial Integration:**
+    - Developed a real-time alert control module utilizing **RS485 (Modbus RTU)** protocol.
+    - Synchronized industrial buzzers for instantaneous audible alerts upon detecting defective or mismatched products.
+- **Deployment:** Field-tested on **NVIDIA Jetson Orin & Jetson Nano**, balancing power efficiency with high-performance inference at the edge.
+- **Tech Stack:** `ResNet-50` · `YOLO` · `OpenCV` · `RS485 (Modbus)` · `TensorRT` · `Dino-Lite`
 
 ---
 
