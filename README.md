@@ -4,6 +4,7 @@
 **Bridging AI Research and Industrial Production with Real-world Data**
 
 I am an AI Engineer specializing in Computer Vision, Natural Language Processing (NLP), and Large Language Model (LLM) systems, with a strong focus on real-world deployment.
+
 My work centers on building models that remain reliable under noisy data, class imbalance, latency constraints, and hardware limitations commonly encountered in production environments.
 
 ---
