@@ -120,8 +120,3 @@ My work centers on building models that remain reliable under noisy data, class 
   </a>
 </p>
 
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=LinhNhat07&show_icons=true&theme=tokyonight&count_private=true"/>
-</p>
