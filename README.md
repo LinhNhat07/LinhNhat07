@@ -3,9 +3,7 @@
 ## 🚀 AI & Machine Learning Engineer | Computer Vision & Data Science
 **Bridging AI Research and Industrial Production with Real-world Data & Automation**
 
-I am an AI Engineer specializing in Computer Vision, Natural Language Processing (NLP), and Large Language Model (LLM) systems, with a strong focus on real-world deployment and **AI workflow automation**.
-
-My work centers on building models that remain reliable under noisy data, class imbalance, and hardware limitations, while leveraging **Low-code Automation (n8n)** to streamline AI operations and data pipelines.
+I specialize in architecting end-to-end AI pipelines that transform raw, noisy industrial data into actionable insights. My expertise lies in optimizing Computer Vision models (YOLO, ResNet) for Edge-AI deployment and building seamless integrations with industrial hardware via Modbus/RS485. Beyond vision, I leverage NLP and LLM frameworks to automate complex workflows, ensuring that AI research delivers measurable value in real-world production settings.
 
 ---
 
