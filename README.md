@@ -16,7 +16,6 @@ My work centers on building models that remain reliable under noisy data, class 
 
 - **Dataset:** Built **VR-TSD**, a real-world traffic sign dataset (58 classes) collected under harsh conditions: rain, fog, low-light, occlusion.
 - **Model:** Proposed a **Lightweight YOLOv8n** architecture (≈6MB).
-- **Optimization:** Exported to **ONNX** and **TensorRT Engine** for maximum throughput.
 - **Performance:** - **mAP@0.5:** 0.9434  
   - **Inference speed:** 77.5 FPS on mobile devices
 - **Contribution:** Demonstrated high-accuracy edge deployment under constrained resources.
@@ -27,34 +26,34 @@ My work centers on building models that remain reliable under noisy data, class 
 
 ### 🏭 **Industrial Smart Quality Control System**
 - **Objective:** Automated defect detection and packaging inspection (wrong label, misalignment).
-- **Deep Learning Architectures:** - Applied **U-Net** for high-precision defect segmentation.
-  - Utilized **Fast R-CNN** & **YOLOv11s** for robust object localization in varied industrial environments.
 - **Data Pipeline:** Real-time image acquisition from production lines using **Keyence, Basler, Cognex** cameras.
-- **Tech Stack:** `YOLOv11s · U-Net · Fast R-CNN · OpenCV · PostgreSQL · NVIDIA RTX 5060`
+- **Key Challenges:** Rare defect detection, class imbalance, unstable lighting.
+- **Tech Stack:** `YOLOv11s · YOLOv8n · OpenCV · PostgreSQL · NVIDIA RTX 5060`
 
 ---
 
 ### 🧴 **Edge-AI Micro-Serial OCR & Real-time Defect Alert System**
 - **Objective:** OCR of micro serial numbers and surface defect detection on cosmetic containers.
-- **Model Integration:** - **ResNet-based** feature extraction for classification tasks.
-  - Hybrid **YOLO + OCR** pipeline optimized for edge constraints.
-- **Industrial Integration:** - Real-time alarm control via **RS485 (Modbus RTU)**.
-  - **Deployment:** **NVIDIA Jetson Orin & Jetson Nano** using **TensorRT Engine** for FP16/INT8 quantization.
-- **Tech Stack:** `ResNet · YOLO · OCR · TensorRT · ONNX · RS485`
+- **Industrial Integration:** - Real-time alarm control via **RS485 (Modbus RTU)** - Industrial buzzer activation for instant alerts
+- **Deployment:** **NVIDIA Jetson Orin & Jetson Nano**
+- **Key Challenges:** Motion blur, surface reflection, character deformation.
+- **Tech Stack:** `YOLO · OCR · OpenCV · RS485 · TensorRT`
 
 ---
 
 ### 🤖 **AI Workflow Automation & Orchestration (n8n)**
 - **Objective:** Building autonomous agents and automated data pipelines to bridge AI models with business applications.
-- **Capabilities:** - **AI Agents:** Developing multi-agent workflows using **n8n LangChain nodes**.
+- **Capabilities:** - **AI Agents:** Developing multi-agent workflows using **n8n LangChain nodes** for complex decision-making.
   - **Automated Pipelines:** Automating data scraping, preprocessing, and model inference triggers.
+  - **Integration:** Connecting LLMs (OpenAI, Anthropic) with Slack, Google Sheets, Databases, and custom APIs.
 - **Tech Stack:** `n8n · Self-hosted (Docker) · LangChain Nodes · REST API · Webhooks`
 
 ---
 
 ### 📝 **Vietnamese NLP & Sentiment Analysis System**
 - **Dataset:** Collected and cleaned **19,000+ real-world Vietnamese samples** from news and social platforms.
-- **Modeling:** Fine-tuned **PhoBERT (Transformer-based)** for sentiment classification.
+- **Modeling:** Fine-tuned **PhoBERT** for sentiment classification.
+- **Focus:** Domain noise, slang, informal Vietnamese language.
 - **Tech Stack:** `PhoBERT · PyTorch · Hugging Face Transformers`
 
 ---
@@ -64,10 +63,12 @@ My work centers on building models that remain reliable under noisy data, class 
 ### 🔗 **LLM API & Orchestration**
 - Designed systems using **OpenAI API**, **Amazon Bedrock**, and **Hugging Face**.
 - Orchestrated complex AI tasks using **n8n**, enabling seamless interaction between LLMs and external tools.
+- Experience with: Prompt engineering, Token optimization, and Async inference.
 
 ### 📚 **RAG (Retrieval-Augmented Generation)**
 - Built RAG pipelines for **enterprise knowledge systems**.
-- **n8n Integration:** Building visual RAG workflows using Vector Store nodes (FAISS, Chroma) and Document Loaders.
+- **n8n Integration:** Building visual RAG workflows using Vector Store nodes (FAISS, Pinecone/Chroma) and Document Loaders.
+- Use cases: Internal document QA, Technical knowledge assistants.
 
 ---
 
@@ -75,12 +76,12 @@ My work centers on building models that remain reliable under noisy data, class 
 
 | Category | Technologies |
 |------|------|
-| **Deep Learning** | YOLO (v8–v11), **Fast R-CNN**, **ResNet**, **U-Net**, **CNNs**, PhoBERT |
-| **Model Optimization** | **ONNX**, **TensorRT Engine**, Quantization (FP16/INT8), Model Pruning |
+| **Deep Learning Architectures** | **CNNs, ResNet, U-Net (Segmentation), Faster R-CNN, YOLO (v8–v11)**, Transformers, PhoBERT, Vision-Language Models |
+| **Model Optimization & Deployment** | **ONNX Runtime, TensorRT (FP16/INT8 Quantization), Engine File Serialization**, OpenVINO |
 | **Automation & Orchestration** | **n8n**, LangChain, Workflow Automation, Webhooks |
 | **Computer Vision** | OpenCV, Keyence, Basler Pylon, Cognex Vision, Dino-Lite |
 | **LLM Systems** | OpenAI API, Amazon Bedrock, Hugging Face, RAG Pipelines |
-| **Edge AI** | Jetson Orin, Jetson Nano, TensorRT, Edge Inference |
+| **Edge AI** | **Jetson Orin, Jetson Nano**, TensorRT Acceleration |
 | **Industrial Communication** | RS485, Modbus RTU |
 | **Data & Backend** | PostgreSQL, NAS/FTP, Selenium, Docker |
 
@@ -88,16 +89,17 @@ My work centers on building models that remain reliable under noisy data, class 
 
 ## 🌱 Current Focus
 - **Vision-Language Models (VLM)** on real-world surveillance video.
-- **Deployment Optimization:** Maximizing FPS using specialized **TensorRT Engine** configurations.
 - **n8n-powered AI Agents** for industrial monitoring and reporting.
+- **Advanced Model Compression:** Optimizing ResNet and U-Net models for real-time edge performance.
+- **Centralized AI Data Pipeline** for annotation, versioning, and training.
 
 ---
 
 ## 🤝 Open for Collaboration
 - Edge AI & Industrial Automation
-- **Model Optimization (ONNX/TensorRT)**
 - **AI Workflow Automation & n8n Implementation**
-- Computer Vision in manufacturing
+- Computer Vision in manufacturing (Defect detection & OCR)
+- Applied NLP for low-resource languages
 
 ---
 
