@@ -1,10 +1,10 @@
 # 👋 Hi, I'm Nguyen Hong Nhat Linh
 
-## 🚀 AI & Machine Learning Engineer | Computer Vision & LLM Systems
+## 🚀 AI & Machine Learning Engineer | Computer Vision & Data Science
 **Bridging AI Research and Industrial Production with Real-world Data**
 
-I am an AI Engineer specializing in **Computer Vision, NLP, and Large Language Model (LLM) systems**, with a strong focus on **real-world deployment**.  
-I believe AI performance is not defined by benchmarks alone, but by how well models survive **noise, imbalance, latency constraints, and hardware limitations** in production environments.
+I am an AI Engineer specializing in Computer Vision, Natural Language Processing (NLP), and Large Language Model (LLM) systems, with a strong focus on real-world deployment.
+My work centers on building models that remain reliable under noisy data, class imbalance, latency constraints, and hardware limitations commonly encountered in production environments.
 
 ---
 
@@ -114,11 +114,8 @@ I believe AI performance is not defined by benchmarks alone, but by how well mod
 
 ## 📫 Contact
 <p align="left">
-  <a href="mailto:nhatlinh.datascience@gmail.com">
+  <a href="mailto:nlinh.nh7@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://linkedin.com/in/your-profile">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 </p>
 
