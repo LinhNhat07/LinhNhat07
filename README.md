@@ -1,68 +1,129 @@
-# Hi, I'm Nguyen Hong Nhat Linh 👋
+# 👋 Hi, I'm Nguyen Hong Nhat Linh
 
-### 🚀 AI & Machine Learning Engineer | Data Science Specialist
-*Bridging the gap between Research and Industrial Production through Real-world Data.*
+## 🚀 AI & Machine Learning Engineer | Computer Vision & LLM Systems
+**Bridging AI Research and Industrial Production with Real-world Data**
 
-Tôi là một kỹ sư AI chuyên xây dựng các hệ thống thị giác máy tính và ngôn ngữ tự nhiên dựa trên nền tảng **Dữ liệu thực tế (Real-world Data)**. Tôi tin rằng sự thành công của một mô hình AI không chỉ nằm ở thuật toán mà còn ở khả năng xử lý các biến số phức tạp từ môi trường thực chiến (nhiễu, ánh sáng yếu, dữ liệu không cân bằng).
-
----
-
-## 🔬 Featured Publication & Research
-
-### **[VR-TSD: A Real-World Dataset and a Lightweight YOLOv8n Model for Traffic Sign Recognition in Vietnam]**
-*Hệ thống nhận diện biển báo giao thông – Công bố tại hội nghị **CSA 2025**.*
-
-* **The Data:** Trực tiếp thu thập và xây dựng bộ dữ liệu **VR-TSD** (58 loại biển báo) từ môi trường giao thông thực tế tại Việt Nam với các kịch bản khắc nghiệt: mưa lớn, sương mù, thiếu sáng và vật cản che khuất.
-* **Engineering:** Đề xuất kiến trúc **Lightweight YOLOv8n** (6MB) đạt **mAP@0.5: 0.9434**.
-* **Performance:** Tối ưu hóa triển khai thực tế với tốc độ **77.5 FPS** trên Mobile.
+I am an AI Engineer specializing in **Computer Vision, NLP, and Large Language Model (LLM) systems**, with a strong focus on **real-world deployment**.  
+I believe AI performance is not defined by benchmarks alone, but by how well models survive **noise, imbalance, latency constraints, and hardware limitations** in production environments.
 
 ---
 
-## 💡 High-Impact Projects (Real-world Implementation)
+## 🔬 Research & Publication
+
+### **VR-TSD: A Real-World Dataset and a Lightweight YOLOv8n Model for Traffic Sign Recognition in Vietnam**
+📌 *Published at **CSA 2025 Conference***
+
+- **Dataset:** Built **VR-TSD**, a real-world traffic sign dataset (58 classes) collected under harsh conditions: rain, fog, low-light, occlusion.
+- **Model:** Proposed a **Lightweight YOLOv8n** architecture (≈6MB).
+- **Performance:**  
+  - **mAP@0.5:** 0.9434  
+  - **Inference speed:** 77.5 FPS on mobile devices
+- **Contribution:** Demonstrated high-accuracy edge deployment under constrained resources.
+
+---
+
+## 💡 Industrial & Real-world Projects
 
 ### 🏭 **Industrial Smart Quality Control System**
-* **The Solution:** Tự động hóa quy trình phân loại lỗi sản phẩm và kiểm tra đóng gói (Sai tem, lệch nhãn).
-* **Real-world Data:** Xây dựng Pipeline thu thập ảnh độ phân giải cao trực tiếp từ dây chuyền sản xuất qua camera **Keyence, Basler, Cognex**. Xử lý bài toán dữ liệu lỗi hiếm gặp (Imbalanced Data) trong nhà máy.
-* **Stack:** YOLOv11s, YOLOv8n, PostgreSQL, NVIDIA **RTX 5060**.
+- **Objective:** Automated defect detection and packaging inspection (wrong label, misalignment).
+- **Data Pipeline:** Real-time image acquisition from production lines using **Keyence, Basler, Cognex** cameras.
+- **Key Challenges:** Rare defect detection, class imbalance, unstable lighting.
+- **Tech Stack:**  
+  `YOLOv11s · YOLOv8n · OpenCV · PostgreSQL · NVIDIA RTX 5060`
+
+---
 
 ### 🧴 **Edge-AI Micro-Serial OCR & Real-time Defect Alert System**
-* **The Solution:** Hệ thống nhận diện số Seri và phát hiện khiếm khuyết trên bề mặt chai lọ mỹ phẩm kích thước nhỏ. 
-* **Industrial Integration:** Tích hợp hệ thống cảnh báo âm thanh thông qua **còi báo công nghiệp**, giao tiếp qua giao thức **RS485 (Modbus RTU)** để điều khiển thời gian thực.
-* **Real-world Data:** Trực tiếp xử lý nhiễu hình ảnh và biến dạng ký tự từ Camera **Dino-Lite**. Dữ liệu được gán nhãn thủ công để đảm bảo độ chính xác tuyệt đối.
-* **Hardware:** Triển khai trên **NVIDIA Jetson Orin** & **Jetson Nano**.
+- **Objective:** OCR of micro serial numbers and surface defect detection on cosmetic containers.
+- **Industrial Integration:**  
+  - Real-time alarm control via **RS485 (Modbus RTU)**  
+  - Industrial buzzer activation for instant alerts
+- **Deployment:** **NVIDIA Jetson Orin & Jetson Nano**
+- **Key Challenges:** Motion blur, surface reflection, character deformation.
+- **Tech Stack:**  
+  `YOLO · OCR · OpenCV · RS485 · TensorRT`
 
-### 📝 **Vietnamese NLP Sentiment Analysis**
-* **The Solution:** Hệ thống phân tích sắc thái ngôn ngữ tự nhiên từ dữ liệu mạng xã hội.
-* **Real-world Data:** Tự xây dựng script thu thập (Scraping) và làm sạch **19,000+** mẫu dữ liệu thực tế từ các nền tảng tin tức và bình luận người dùng. 
-* **Stack:** PhoBERT, Fine-tuning LLMs, PyTorch.
+---
+
+### 📝 **Vietnamese NLP & Sentiment Analysis System**
+- **Dataset:** Collected and cleaned **19,000+ real-world Vietnamese samples** from news and social platforms.
+- **Modeling:** Fine-tuned **PhoBERT** for sentiment classification.
+- **Focus:** Domain noise, slang, informal Vietnamese language.
+- **Tech Stack:**  
+  `PhoBERT · PyTorch · Hugging Face Transformers`
+
+---
+
+## 🧠 LLM, API & RAG Systems Experience
+
+### 🔗 **LLM API Integration**
+- Designed systems using:
+  - **OpenAI API**
+  - **Amazon Bedrock** (Claude, Titan)
+  - **Hugging Face Inference API**
+- Experience with:
+  - Prompt engineering for production
+  - Token & cost optimization
+  - Streaming & async inference
+
+### 📚 **RAG (Retrieval-Augmented Generation)**
+- Built RAG pipelines for **enterprise knowledge systems**
+- Key components:
+  - Vector databases (FAISS / Chroma)
+  - Embedding models (OpenAI, Hugging Face)
+  - Context chunking & reranking
+- Use cases:
+  - Internal document QA
+  - Technical knowledge assistants
+  - AI-powered support systems
+
+### 🤗 **Hugging Face Ecosystem**
+- Model fine-tuning & deployment
+- Custom datasets & tokenizers
+- Local inference optimization for edge & on-premise systems
 
 ---
 
 ## 🛠 Tech Stack & Expertise
 
-| Category | Expertise |
-| :--- | :--- |
-| **🧠 Deep Learning** | YOLO (v8-v11), ResNet, Transformers (**NLP/LLMs**), PhoBERT, CNNs. |
-| **👁️ Computer Vision** | OpenCV, **Keyence**, **Basler Pylon**, **Cognex Vision**, Dino-Lite. |
-| **⚡ Edge & Hardware** | **NVIDIA Jetson Orin/Nano**, **RTX 5060**, **RS485/Modbus**, TensorRT. |
-| **💾 Data Management** | **Real-world Data Collection**, **PostgreSQL**, NAS/FTP, Selenium. |
+| Category | Technologies |
+|------|------|
+| **Deep Learning** | YOLO (v8–v11), CNNs, Transformers, PhoBERT, Vision-Language Models |
+| **Computer Vision** | OpenCV, Keyence, Basler Pylon, Cognex Vision, Dino-Lite |
+| **LLM Systems** | OpenAI API, Amazon Bedrock, Hugging Face, RAG Pipelines |
+| **Edge AI** | Jetson Orin, Jetson Nano, TensorRT |
+| **Industrial Communication** | RS485, Modbus RTU |
+| **Data & Backend** | PostgreSQL, NAS/FTP, Selenium |
 
 ---
 
 ## 🌱 Current Focus
-- 🔬 **Research:** Tối ưu hóa **Vision-Language Models (VLM)** trên dữ liệu video thực tế từ Camera giám sát.
-- 🏗️ **Development:** Hệ thống quản lý và gán nhãn dữ liệu AI tập trung (Centralized AI Data Pipeline).
-- 💬 **Open for:** Cộng tác dự án **Edge AI**, **Industrial Automation** và **Advanced NLP**.
+- **Vision-Language Models (VLM)** on real-world surveillance video
+- **Centralized AI Data Pipeline** for annotation, versioning, and training
+- **LLM-powered industrial assistants** using RAG
 
 ---
 
-## 📫 Connect with me
+## 🤝 Open for Collaboration
+- Edge AI & Industrial Automation
+- Computer Vision in manufacturing
+- LLM-based enterprise systems
+- Applied NLP for low-resource languages
+
+---
+
+## 📫 Contact
 <p align="left">
-<a href="mailto:nhatlinh.datascience@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:nhatlinh.datascience@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://linkedin.com/in/your-profile">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
 </p>
 
 ---
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=LinhNhat07&show_icons=true&theme=tokyonight&count_private=true" alt="Linh's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=LinhNhat07&show_icons=true&theme=tokyonight&count_private=true"/>
 </p>
