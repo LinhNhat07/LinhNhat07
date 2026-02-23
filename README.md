@@ -3,7 +3,7 @@
 ## 🚀 AI & Machine Learning Engineer | Computer Vision & Data Science
 **Bridging AI Research and Industrial Production with Real-world Data & Automation**
 
-I specialize in architecting end-to-end AI pipelines that transform raw, noisy industrial data into actionable insights. My expertise lies in optimizing Computer Vision models (YOLO, ResNet) for Edge-AI deployment and building seamless integrations with industrial hardware via Modbus/RS485. Beyond vision, I leverage NLP and LLM frameworks to automate complex workflows, ensuring that AI research delivers measurable value in real-world production settings.
+Industrial AI Engineer specializing in Computer Vision and applied AI solutions. Hands-on experience in real-world industrial environments, including data collection, annotation, preprocessing, model training, fine-tuning, and high-performance deployment on edge devices (NVIDIA Jetson, Linux-based systems). Proficient in converting models to ONNX and TensorRT for optimized inference, integrating industrial cameras, PLC systems, and alarm mechanisms to deliver reliable, production-ready AI applications that enhance manufacturing automation, quality control, and operational efficiency.
 
 ---
 
