@@ -68,18 +68,21 @@ Industrial AI Engineer specializing in Computer Vision and applied AI solutions.
 
 ---
 
-## 🛠 Tech Stack & Expertise
+### Tech Stack & Expertise
 
-| Category | Technologies |
-|------|------|
-| **Deep Learning Architectures** | **CNNs, ResNet, U-Net (Segmentation), Faster R-CNN, YOLO (v8–v11)**, Transformers, PhoBERT, Vision-Language Models |
-| **Model Optimization & Deployment** | **ONNX Runtime, TensorRT (FP16/INT8 Quantization), Engine File Serialization**, OpenVINO |
-| **Automation & Orchestration** | **n8n**, LangChain, Workflow Automation, Webhooks |
-| **Computer Vision** | OpenCV, Keyence, Basler Pylon, Cognex Vision, Dino-Lite |
-| **LLM Systems** | OpenAI API, Amazon Bedrock, Hugging Face, RAG Pipelines |
-| **Edge AI** | **Jetson Orin, Jetson Nano**, TensorRT Acceleration |
-| **Industrial Communication** | RS485, Modbus RTU |
-| **Data & Backend** | PostgreSQL, NAS/FTP, Selenium, Docker |
+| Category                                      | Technologies & Tools                                                                 |
+|-----------------------------------------------|--------------------------------------------------------------------------------------|
+| **Programming Languages & Core Libraries**    | Python, NumPy, Pandas, Matplotlib, Seaborn                                           |
+| **Machine Learning & Deep Learning Frameworks** | **PyTorch**, **TensorFlow** / Keras, **scikit-learn**, Hugging Face Transformers |
+| **Classical Machine Learning Models & Algorithms** | Linear Regression, Logistic Regression, **Support Vector Machines (SVM)**, Decision Trees, **Random Forest**, Gradient Boosting (XGBoost, LightGBM, CatBoost), K-Nearest Neighbors (KNN), Ensemble methods |
+| **Deep Learning Architectures & Models**      | CNNs, ResNet, EfficientNet, MobileNet, **U-Net** (semantic/instance segmentation), **YOLO** series, **Faster R-CNN**, Darknet, Vision Transformers (ViT), BERT, PhoBERT, Vision-Language Models |
+| **Computer Vision Libraries & Tools**         | **OpenCV**, Albumentations (data augmentation), Keyence vision systems, Basler Pylon SDK, Cognex VisionPro, Dino-Lite microscopy integration |
+| **Model Optimization & Inference Engines**    | **TensorRT** (FP16/INT8 quantization, engine serialization), **ONNX Runtime** |
+| **Deployment & Edge AI**                      | **NVIDIA Jetson Orin / Jetson Nano**, TensorRT acceleration, **TensorFlow Lite**, PyTorch Mobile, Docker containerization |
+| **Large Language Model & Generative AI Systems** | OpenAI API, Amazon Bedrock, Hugging Face ecosystem, Retrieval-Augmented Generation (**RAG**) pipelines |
+| **Automation, Orchestration & Workflows**     | **n8n**, **LangChain**, Webhooks, workflow automation                               |
+| **Industrial & Hardware Integration**         | RS-485, **Modbus RTU**, industrial cameras & vision controllers (Keyence, Basler, Cognex) |
+| **Data Management & Backend**                 | **PostgreSQL**, NAS/FTP servers, Selenium (web scraping/automation), Docker         |
 
 ---
 
