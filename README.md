@@ -87,21 +87,16 @@ Industrial AI Engineer specializing in Computer Vision and applied AI solutions.
 ---
 
 ## 🌱 Current Focus
-**Industrial Computer Vision:** Developing high-precision defect detection systems for high-speed conveyor belts, leveraging state-of-the-art architectures like YOLOv11 to solve complex quality control challenges.
+- **Industrial Computer Vision** — Designing and deploying high-precision, real-time defect detection systems for high-speed production lines using state-of-the-art object detection architectures (e.g., **YOLOv11**), addressing complex quality assurance challenges in manufacturing.
+- **Model Optimization & Edge Deployment** — Optimizing deep learning pipelines through ONNX export, **TensorRT** engine building (FP16/INT8 quantization), and low-latency inference on industrial PCs and NVIDIA Jetson platforms (Orin/Nano) to enable ultra-fast, reliable production deployment.
+- **Factory Automation & Hardware Integration** — Integrating AI vision solutions with industrial ecosystems, including Basler/Keyence cameras, RS-485/Modbus RTU protocols, and real-time alerting mechanisms for automated quality control and process optimization.
+- **Applied Deep Learning & Production ML** — Bridging cutting-edge research with scalable, robust production systems by applying computer vision, machine learning, and NLP techniques to solve practical problems in industrial environments.
 
-**Model Optimization & Deployment:** Streamlining the end-to-end deployment pipeline by converting Deep Learning models to ONNX and TensorRT (Engine) formats to achieve ultra-low latency on industrial PCs and Edge AI platforms (NVIDIA Jetson).
-
-**Factory Automation Integration:** Deepening expertise in integrating AI software with industrial hardware, including Basler/Keyence cameras and RS485 communication protocols for real-time automated alerts.
-
-**Practical Deep Learning:** Bridging the gap between research and production by applying Machine Learning and NLP to build robust, scalable AI solutions for real-world industrial environments.
-
----
-
-## 🤝 Open for Collaboration
-- Edge AI & Industrial Automation
-- **AI Workflow Automation & n8n Implementation**
-- Computer Vision in manufacturing (Defect detection & OCR)
-- Applied NLP for low-resource languages
+## 🤝 Open to Collaboration
+- Edge AI deployment and optimization for industrial applications
+- AI-driven workflow automation (n8n, LangChain, custom pipelines)
+- Computer Vision solutions in manufacturing — including defect detection, OCR, and visual inspection
+- Applied NLP projects, particularly for low-resource languages (e.g., Vietnamese-focused models like PhoBERT)
 
 ---
 
